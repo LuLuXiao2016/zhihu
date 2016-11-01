@@ -1,0 +1,282 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top{
+    margin: 0;
+    padding:0;
+    width:100%;
+    height:50px;
+    background-color: #0664c3;
+}
+.top_left_l{
+    margin-left: 15%;
+    width:800px;
+    position: relative;
+}
+.top_left_l input{
+    margin-top:4px;
+    width:340px;
+    height:35px;
+    border-radius: 5px;
+    background-color: #e1eaf2;
+}
+.top_left_l input:focus{
+    background-color: white;
+}
+.top_left_l button{
+    margin-top:4px;
+    width:45px;
+    height:35px;
+    border-radius: 5px;
+    background-color: #0d76e3;
+    margin-left: -10px;
+    padding:0;
+}
+.glyphicon-search{
+    color:white;
+}
+.nav{
+    width:200px;
+    height:40px;
+    margin-left:700px;
+    margin-top: -45px;
+
+}
+.nav ul{
+    position: absolute;
+    list-style: none;
+}
+.nav li{
+    padding:15px;
+    float: left;
+    text-decoration: none;
+}
+.nav a{
+    color: #eeeeee;
+}
+.nav a:hover{
+    display: block;
+    background-color:#055fb7;
+}
+.top-right{
+    width:20px;
+    height:40px;
+    position: relative;
+}
+.top_right button{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -35px;
+    width:70px;
+    height:40px;
+    background-color:#0e78e6 ;
+    border-radius: 5px;
+    color: white;
+}
+.top_right span{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: -35px;
+    width:70px;
+    height:40px;
+    color: white;
+}
+.main_right{
+    float: right;
+    width:250px;
+    margin-right: 250px;
+    margin-top:30px;
+}
+.main_left{
+    float: left;
+    width:670px;
+    margin-top:30px;
+    margin-left: 200px;
+    /*margin-right: 150px;*/
+}
+
+.operate{
+    margin:0;
+    padding:0;
+    width:670px;
+    height:60px;
+}
+.operate img{
+    float: left;
+}
+.operate_r{
+    width:610px;
+    height:60px;
+    margin-left: 60px;
+    background-color:#f7f4f4;
+    padding:0;
+}
+.operate_r li{
+    float: left;
+    padding: 15px 40px 15px 40px;
+    list-style: none;
+}
+.operate_r a{
+     font-size: 17px;
+     text-decoration: none;
+     color: #6c829f;
+ }
+.operate_r a:hover{
+     text-decoration: none;
+}
+.edit{
+    margin-left: 70px;
+    font-size: 14px;
+    color: #9f9f9f;
+    padding:15px 0 15px 0;
+}
+.main_left p{
+    margin:30px 0;
+}
+.main_left input{
+    background-color:#f7f4f4;
+    width:80px;
+    height:20px;
+    border-radius: 10px;
+    border:hidden;
+}
+.main_left input:hover{
+    background-color: #0d76e3;
+}
+.glyphicon-list-alt{
+    float: left;
+}
+.glyphicon-cog{
+    float: right;
+}
+.title a{
+    font-size: 15px;
+    color: #07519a;
+    line-height: 30px;
+}
+.article{
+    line-height: 25px;
+}
+.ignore{
+    float: right;
+    width:20px;
+    height:20px;
+}
+.question{
+    margin:20px 0;
+    width:250px;
+    height:100px;
+}
+.question ul li{
+    padding:5px 0;
+    list-style: none;
+}
+.question a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #6c829f;
+    line-height: 17px;
+}
+.question a:hover{
+    text-decoration: none;
+}
+.question li:hover{
+    background-color: #68a3ff;
+}
+.action{
+    margin-top: 40px;
+    width:250px;
+    height:120px;
+}
+.action ul li{
+    padding:5px 0;
+    list-style: none;
+}
+.action li:hover{
+    background-color: #68a3ff;
+}
+.action a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #6c829f;
+}
+.action a:hover{
+    text-decoration: none;
+}
+.glyphicon{
+    color: #6c829f;
+}
+.spe{
+    margin-top: 20px;
+}
+.spe h5{
+    padding-bottom: 10px;
+}
+.spe a{
+    text-decoration: none;
+    color:#6c829f ;
+}
+.spe a:hover{
+    text-decoration: none;
+}
+.all a{
+    font-size: 13px;
+    float: right;
+}
+.live ul li{
+     padding:5px 0;
+     list-style: none;
+ }
+.live li:hover{
+    background-color: #68a3ff;
+}
+.live a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #6c829f;
+}
+.live a:hover {
+    text-decoration: none;
+}
+.circle ul li{
+    padding:5px 0;
+    list-style: none;
+}
+.circle li:hover{
+    background-color: #68a3ff;
+}
+.circle a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #6c829f;
+}
+.circle a:hover {
+    text-decoration: none;
+}
+.download ul li{
+    padding:5px 0;
+    list-style: none;
+}
+.download li:hover{
+    background-color: #68a3ff;
+}
+.download a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #6c829f;
+}
+.download a:hover {
+    text-decoration: none;
+}
+.declear{
+    width:250px;
+    height: 100px;
+}
+.declear a{
+    font-size: 15px;
+    color:#6c829f ;
+
+}
+
+
